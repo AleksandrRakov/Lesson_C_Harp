@@ -10,7 +10,7 @@ if (a > max) max = a;
 if (b > max) max = b;
 if (c > max) max = c;
 if (d > max) max = d;
-if (c > max) max = e;
+if (e > max) max = e;
 
 Console.Write("max = ");
 Console.WriteLine( max );
