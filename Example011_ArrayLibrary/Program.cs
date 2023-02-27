@@ -1,4 +1,6 @@
-﻿void FillArray(int[] collection)
+﻿int[] array = new int[10];
+
+void FillArray(int[] collection)
 {
     int Length = collection.Length;
     int index = 0;
@@ -27,8 +29,6 @@ void PrintArray(int[] col)
         position++;
     }
 }
-
-int[] array = new int[10];
 
  FillArray(array);
  PrintArray(array);
